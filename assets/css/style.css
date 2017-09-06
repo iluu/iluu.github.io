@@ -45,7 +45,7 @@ body {
 }
 .site-wrapper-inner {
     display: table-cell;
-    vertical-align: top;
+    vertical-align: middle;
 }
 .cover-container {
     margin-right: auto;
@@ -78,10 +78,6 @@ body {
  */
 
 @media (min-width: 768px) {
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-      vertical-align: middle;
-  }
   /* Handle the widths */
   .cover-container {
       width: 100%; /* Must be percentage or pixels for horizontal alignment */
