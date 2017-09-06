@@ -1,0 +1,111 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+/* Icons */
+
+.fa-linkedin {
+	  color: #007bb6
+}
+.fa-twitter {
+	  color: #00aced
+}
+.fa-github {
+    color: #000000
+}
+/*
+ * Base structure
+ */
+
+html,
+body {
+    height: 100%;
+    background-color: #FAFAFA;
+}
+body {
+    color: #444;
+    text-align: center;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%; /* For at least Firefox */
+    min-height: 100%;
+    -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.2);
+            box-shadow: inset 0 0 100px rgba(0,0,0,.2);
+}
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+}
+.cover-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+    padding: 30px;
+}
+
+/*
+ * Cover
+ */
+
+.cover {
+    padding: 0 20px;
+}
+
+.cover-heading {
+    margin-top: 15px;  
+}
+
+.lead {
+    margin-bottom: 5px;
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+      vertical-align: middle;
+  }
+  /* Handle the widths */
+  .cover-container {
+      width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+
+  .avatar-container {
+      text-align: center;
+  }
+
+  .text-container {
+      text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .cover-container {
+      width: 700px;
+  }
+
+  .avatar-container {
+      text-align: right;
+  }
+
+  .text-container {
+      text-align: left;
+  }
+}
