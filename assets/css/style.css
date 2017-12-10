@@ -52,6 +52,11 @@ body {
       text-align: center;
 }
 
+.img-circle {
+    width: 132px;
+    height: 132px;
+}
+
 .text-container {
       text-align: center;
 }
